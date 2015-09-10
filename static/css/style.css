@@ -1,0 +1,33 @@
+.navbar{
+    background-color: black;
+    margin-bottom: 0px;
+    height: 10%;
+}
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover{
+    background-color: rgba(80, 79, 79, 0.4);
+}
+
+.content{
+    height: 85%;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: gray;
+}
+
+
+#sub-floor {
+    height: 5%;
+    color: #aaa;
+    background: #292929;
+    padding: 10px 0;
+}
+.copyright {
+    text-align: center;
+}
+@media (min-width: 992px) {
+    .copyright {
+        text-align: left;
+    }
+}
